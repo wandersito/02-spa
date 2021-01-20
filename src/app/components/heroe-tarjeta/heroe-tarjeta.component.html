@@ -1,7 +1,7 @@
 
 
 <div class="card animated fadeIn fast">
-    <img class="card-img-top img-fluid" src="/src/assets/img/{{ heroe.img }}" [alt]="heroe.nombre">
+    <img class="card-img-top img-fluid" [src]="heroe.img" [alt]="heroe.nombre">
     <div class="card-body">
         <h5 class="card-title"> {{heroe.nombre}} </h5>
         <p class="card-text"> {{ heroe.bio }} </p>
